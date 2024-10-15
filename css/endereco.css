@@ -13,7 +13,9 @@ footer{
 .redesSociais a {
     padding-left: 50px;
     background: linear-gradient(rgb(0, 247, 255), rgb(255, 0, 242));
+
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
