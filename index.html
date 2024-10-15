@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integração de NavBar e Formulário</title>
+    <script src="https://kit.fontawesome.com/003e6b946d.js" crossorigin="anonymous"></script>
+    <!-- Importando os arquivos CSS -->
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/olhos2.css">
+    <link rel="stylesheet" href="./css/endereco.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="" class="logo">
+                <img src="./image/olho1-removebg-preview.png" alt="">
+                <h1>Brazilian Lash <br>
+                    Designer
+                </h1>
+            </a>
+            <button id="botaoN" class="hamburguer"></button>
+            <ul class="nav-list">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Antes e Depois</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Pré Procedimento</a>
+                </li>
+                <li>
+                    <a href="#">Termos</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+               
+            </ul>
+
+        </nav>
+    </header>
+    <section class="image-de-fundo">
+        <section class="olhos2">
+
+            <img class="olhos2-img" src="./image/olhos2.jpg" alt=""> 
+
+            <div class="titulo-no-rosto">
+                Olhares que encantam, 
+                Cílios que Transformam
+            </div>  
+            
+        </section>
+
+        <!-- Formulário -->
+        <section class="secaoF">
+            <!-- Cole o código do form.html aqui -->
+            <form class="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" required>
+        
+                <button id="botaoF"type="submit">Enviar via WhatsApp</button>
+            </form>
+        </section>
+        <footer>
+            <div class="redesSociais">
+                 <a href="#"><i class="fa-brands fa-facebook"></i><img src="./image/facebook.png" alt=""></a>
+                 <a href="#"><i class="fa-brands fa-instagram"></i><img src="./image/instagram.png" alt=""></a>
+            </div>  
+                
+            <div class="endereco">
+                <p>Av.portugual, 6785 - casa206 - Fazenda Rio Grande</p>
+            </div>
+
+            <p>© 2024 Brazilian Lash Designer. Todos os direitos reservados.</p>
+        </footer>
+    </section>
+    <!-- Importando os arquivos JavaScript -->
+    <script src="./js/navbar.js"></script>
+    <script src="./js/formulario.js"></script>
+</body>
+</html>

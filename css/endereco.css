@@ -1,0 +1,19 @@
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.redesSociais{
+    font-size: 30px;
+}
+
+.redesSociais a {
+    padding-left: 50px;
+    background: linear-gradient(rgb(0, 247, 255), rgb(255, 0, 242));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
